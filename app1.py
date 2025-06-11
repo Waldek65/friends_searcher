@@ -4,9 +4,7 @@ import pandas as pd
 from pycaret.clustering import load_model, predict_model  
 import plotly.express as px  
 from openai import OpenAI
-#from dotenv import dotenv_values
-#from qdrant_client import QdrantClient
-#from qdrant_client.models import PointStruct, Distance, VectorParams
+
 
 MODEL_NAME = 'moj_ai'
 
