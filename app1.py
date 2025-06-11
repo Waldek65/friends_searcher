@@ -31,12 +31,6 @@ def get_all_participants():
 
     return df_with_clusters
 
-#@st.cache_resource
-#def get_qudrant_client():
-    return QdrantClient(
-    url="https://043ba763-1aee-481c-96cd-a14736e9bd6e.eu-central-1-0.aws.cloud.qdrant.io:6333", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.34Lkr5v0MidzSst34TFXJwrdKw2GpZb4_H0H6lMqQFM",
-)
 
 with st.sidebar:
     st.header("Powiedz nam coś o sobie")
