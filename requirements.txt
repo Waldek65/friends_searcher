@@ -1,6 +1,6 @@
 json
 streamlit 
 pandas 
-pycaret
+
 plotly
 openai 
