@@ -4,3 +4,4 @@ pandas
 pycaret
 plotly
 openai 
+scikit-learn
