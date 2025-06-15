@@ -55,10 +55,10 @@ all_df = get_all_participants()
 cluster_names_and_descriptions = get_cluster_names_and_descriptions()
 
 predicted_cluster_id = predict_model(model, data=person_df)["Cluster"].values[0]
-key_to_use = predicted_cluster_id if str(predicted_cluster_id).startswith("Cluster") else f"Cluster {predicted_cluster_id}"
-predicted_cluster_data = cluster_names_and_descriptions[key_to_use]
+#key_to_use = predicted_cluster_id if str(predicted_cluster_id).startswith("Cluster") else f"Cluster {predicted_cluster_id}"
+#predicted_cluster_data = cluster_names_and_descriptions[key_to_use]
 #predicted_cluster_data = cluster_names_and_descriptions[f"Cluster {predicted_cluster_id}"]
-#predicted_cluster_data = cluster_names_and_descriptions[predicted_cluster_id]
+predicted_cluster_data = cluster_names_and_descriptions[predicted_cluster_id]
 
 
 st.write("Predicted ID:", predicted_cluster_id)
