@@ -4,4 +4,4 @@ pandas
 pycaret
 plotly
 openai 
-scikit-learn
+scikit-learn>=1.0
