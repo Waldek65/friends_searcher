@@ -1,7 +1,7 @@
 
-streamlit==1.29.0
-pandas==1.5.3
-pycaret==3.0.0
-plotly==5.15.0
-openai==1.16.0
-scikit-learn==1.2.2
+streamlit
+pandas
+pycaret
+plotly
+openai
+#scikit-learn
